@@ -22,7 +22,7 @@ Predictors Used:
 - day of the week 요일 (weekday) 
 
 
-![alt text](0603_Real and Fitted, 2016 to 2018, 2nd trial.jpeg)
+![alt text](https://github.com/Doyyn/project-chicken/blob/master/0603_Real%20and%20Fitted%2C%202016%20to%202018%2C%202nd%20trial.jpeg)
 Used Multiple Linear Regression with outlier elimination and backward elimination.
 In this modeling, weather and date including the day of the week were considered as a important variable. Calls were made into barplot to eliminate the outliers. Outliers over the max value were replaced with the max value. 
 While the RMSE  are  quite similar to that of other methods, the trend of going up and down is shown better than other methods (regression tree does not show detailed data, neural net make low data lower in extreme ways), so MLR is used to predict. 

@@ -3,8 +3,15 @@ This project tries to create the MLR model to predict future chicken calls from 
 
 Dataset specification:
 Merged 2 datasets
-- Chicken delivery call data (date, calls)
+- Chicken delivery call data (date, calls) from June 2016 to Nov 2018
+  source from: SK Telecom. (2018). 18년 5월 서울시 치킨 판매업종 이용 통화량. SK telecom Big Data Hub. 2019년 4월 20일 검색, https://www.bigdatahub.co.kr/product/view.do?pid=1001845
+
 - Seoul weather data
+  source from: 
+  서울특별시. (2019). 서울시 일별 기상관측 정보. 서울 열린 데이터 광장. 2019년 6월 2일 검색, https://data.seoul.go.kr/dataList/datasetView.do?infId=OA-2226&srvType=S&serviceKind=1&currentPageNo=1
+  AccuWeather. (2019). 중구월 날씨. AccuWeather. 2019년 6월 2일 검색,
+https://www.accuweather.com/ko/kr/jung-gu/226007/month/226007?monyr=6/01/2019
+
 
 Predictors Used:
 - Date (yymmdd)
